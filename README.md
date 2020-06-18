@@ -1,23 +1,31 @@
-# Angular Directive Exercise NG
+# Angular Exercise to Practice the use of Directives
 
-## Angular App that will apply skills learned, specifically in regards to Directives.
+Angular App that will apply skills learned, specifically in regards to Directives.
 
 ## May include any or all of the following subjects
 
-# Angular Directive Exercise NG
-
-### Angular App that will apply skills learned, specifically in regards to Directives.
-
 ## Summary
 
-- [Runing the tests](#running-the-tests)
-- [Deployment](#deployment)
+- [Built With](#subjects-demonstrated)
 - [Built With](#built-with)
-- [Contributing](#contributing)
-- [Versioning](#versioning)
 - [Authors](#authors)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+## Subjects Demonstrated
+
+May include any or all of the following subjects
+
+- ngIf
+- Hidden Property
+- ngSwitchCase
+- ngFor
+- ngFor and Change Detection
+- ngFor and trackBy
+- The Leading Asterisk
+- ngClass
+- ngStyle
+- Safe Traversal Operator
+- Creating Custom Directives
 
 ## Built With
 
