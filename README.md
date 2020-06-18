@@ -2,12 +2,10 @@
 
 Angular App that will apply skills learned, specifically in regards to Directives.
 
-## May include any or all of the following subjects
-
 ## Summary
 
-- [Subjects Demonstrated](#subjects-demonstrated)
 - [Built With](#built-with)
+- [Subjects Demonstrated](#subjects-demonstrated)
 - [Deployment](#deployment)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
@@ -30,7 +28,8 @@ May include any or all of the following subjects
 
 ## Deployment
 
-- [Netlify](https://app.netlify.com/) via [GitHub](https://app.netlify.com/)'s Netlify App
+- Hosted on [Netlify](https://app.netlify.com/) utilizing [GitHub](https://app.netlify.com/)'s Netlify App
+- URL [https://angular-directive-app.netlify.app/](https://angular-directive-app.netlify.app/)
 
 ## Built With
 
