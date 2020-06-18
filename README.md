@@ -10,9 +10,15 @@ Angular App that will apply skills learned, specifically in regards to Directive
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 
+## Built With
+
+- [Angular](https://angular.io/) - Framework
+- [Angular CLI](https://cli.angular.io/) - Command Line Interface.
+- [Bootstrap](https://getbootstrap.com/)
+
 ## Subjects Demonstrated
 
-May include any or all of the following subjects
+May include any or all of the following subjects related to Angular Directives.
 
 - ngIf
 - Hidden Property
@@ -30,12 +36,6 @@ May include any or all of the following subjects
 
 - Hosted on [Netlify](https://app.netlify.com/) utilizing [GitHub](https://app.netlify.com/)'s Netlify App
 - URL [https://angular-directive-app.netlify.app/](https://angular-directive-app.netlify.app/)
-
-## Built With
-
-- [Angular](https://angular.io/) - Framework
-- [Angular CLI](https://cli.angular.io/) - Command Line Interface.
-- [Bootstrap](https://getbootstrap.com/)
 
 ## Authors
 
