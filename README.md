@@ -6,8 +6,9 @@ Angular App that will apply skills learned, specifically in regards to Directive
 
 ## Summary
 
-- [Built With](#subjects-demonstrated)
+- [Subjects Demonstrated](#subjects-demonstrated)
 - [Built With](#built-with)
+- [Deployment](#deployment)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 
@@ -26,6 +27,10 @@ May include any or all of the following subjects
 - ngStyle
 - Safe Traversal Operator
 - Creating Custom Directives
+
+## Deployment
+
+- [Netlify](https://app.netlify.com/) via [GitHub](https://app.netlify.com/)'s Netlify App
 
 ## Built With
 
