@@ -1,27 +1,37 @@
-# ZippyExerciseNg
+# Angular Directive Exercise NG
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+## Angular App that will apply skills learned, specifically in regards to Directives.
 
-## Development server
+## May include any or all of the following subjects
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Angular Directive Exercise NG
 
-## Code scaffolding
+### Angular App that will apply skills learned, specifically in regards to Directives.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Summary
 
-## Build
+- [Runing the tests](#running-the-tests)
+- [Deployment](#deployment)
+- [Built With](#built-with)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Authors](#authors)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Built With
 
-## Running unit tests
+- [Angular](https://angular.io/) - Framework
+- [Angular CLI](https://cli.angular.io/) - Command Line Interface.
+- [Bootstrap](https://getbootstrap.com/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Authors
 
-## Running end-to-end tests
+- **Curt Grogan** - _Full Stack Web Developer_ -
+  [Curt Grogan](https://github.com/clgrogan)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Acknowledgments
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- **Udemy - Angular Crash Course for Busy Developers** - _Provided the bulk of the knowhow on how to work with Angular_ [Udemy](https://www.udemy.com/)
+- **Billie Thompson** - _Provided README Template_ -
+  [PurpleBooth](https://github.com/PurpleBooth)
