@@ -1,12 +1,20 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 
 @Component({
   selector: "zippy",
   templateUrl: "./zippy.component.html",
   styleUrls: ["./zippy.component.css"],
 })
-export class ZippyComponent implements OnInit {
+export class ZippyComponent {
+  expandBilling: boolean = true;
+  expandShipping: boolean = true;
   constructor() {}
 
-  ngOnInit(): void {}
+  onClickBilling = () => {
+    this.expandBilling = !this.expandBilling;
+  };
+
+  onClickShipping = () => {
+    this.expandShipping = !this.expandShipping;
+  };
 }

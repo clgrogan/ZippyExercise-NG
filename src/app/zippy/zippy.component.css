@@ -1,1 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+
+.section-header {
+  color: whitesmoke;
+}
+
+.details-ul {
+  list-style-type: circle;
+}
