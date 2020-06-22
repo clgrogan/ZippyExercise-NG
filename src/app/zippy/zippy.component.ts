@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { OrdersService } from "../orders.service";
 
 @Component({
   selector: "zippy",
@@ -8,7 +9,13 @@ import { Component } from "@angular/core";
 export class ZippyComponent {
   expandBilling: boolean = true;
   expandShipping: boolean = true;
-  constructor() {}
+  orders: any;
+  constructor(service: OrdersService) {
+    // Dependency must be registered in the module > Provider.
+    // or on rendering will get the ERROR "Error: No provider for CoursesService!"
+    // let service = new CoursesService(); // tightly couples instance to the service class implementation
+    this.orders = service.getOrders();
+  }
 
   onClickBilling = () => {
     this.expandBilling = !this.expandBilling;

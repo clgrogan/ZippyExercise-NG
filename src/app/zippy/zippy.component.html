@@ -1,4 +1,11 @@
 <section class="order-details-section">
+  <ul class="order-details-ul" *ngFor="let order of orders">
+    <li>
+      <h3 class="navbar bg-dark section-header" (click)="onClickShipping()">
+        {{ order.section }}
+      </h3>
+    </li>
+  </ul>
   <section class="order-details-item">
     <h3 class="navbar bg-dark section-header" (click)="onClickShipping()">
       Shipping Details
