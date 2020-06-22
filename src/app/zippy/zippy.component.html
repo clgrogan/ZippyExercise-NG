@@ -1,10 +1,25 @@
 <section class="order-details-section">
-  <ul class="order-details-ul" *ngFor="let order of orders">
+  <!-- <ul class="order-details-ul" *ngFor="let order of orders">
     <li>
       <h3 class="navbar bg-dark section-header" (click)="onClickShipping()">
         {{ order.section }}
       </h3>
     </li>
+    <ul class="details-ul" *ngFor="let detail of order.details">
+      <li>xxx</li>
+    </ul>
+  </ul> -->
+  <ul class="order-details-ul" *ngFor="let order of orders">
+    <li>
+      <h3 class="navbar bg-dark section-header" (click)="onClickShipping()">
+        {{ order.section + " Details" }}
+      </h3>
+    </li>
+    <ul>
+      <li *ngFor="let hollywood of order.details">
+        {{ hollywood.title + ": " + hollywood.data }}
+      </li>
+    </ul>
   </ul>
   <section class="order-details-item">
     <h3 class="navbar bg-dark section-header" (click)="onClickShipping()">

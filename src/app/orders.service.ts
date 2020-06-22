@@ -5,20 +5,30 @@ import { Injectable } from "@angular/core";
 })
 export class OrdersService {
   getOrders() {
+    // This method emulates a call to an end point returning
+    // formatted data
     return [
       {
         section: "Shipping",
-        shipToName: "Jenna James",
-        dateShipped: "TBD",
-        courier: "UPS",
-        addr1: "8111 W. Some St.",
-        addr2: null,
-        city: "Tampa",
-        state: "FL",
-        zip: 33607,
+        details: [
+          { title: "Ship To", data: "Jenna James" },
+          { title: "Date Shipped", data: "TBD" },
+          { title: "Courier", data: "UPS" },
+          { title: "Street Addr", data: "8111 W. Some St." },
+          { title: "City", data: "Tampa" },
+          { title: "State", data: "FL" },
+          { title: "Zip Code", data: 33607 },
+        ],
       },
       {
         section: "Billing",
+        details: [
+          { title: "Name", data: "Don Juan" },
+          { title: "Total", data: "$100.00" },
+          { title: "Amount Paid", data: "$50.00" },
+          { title: "Balance", data: "$50.00" },
+          { title: "Payment Method", data: "CC" },
+        ],
         name: "Julie Evans",
         total: 100.0,
         amtPaid: 50.0,
