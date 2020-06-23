@@ -1,24 +1,23 @@
 <section class="order-details-section">
-  <!-- <ul class="order-details-ul" *ngFor="let order of orders">
-    <li>
-      <h3 class="navbar bg-dark section-header" (click)="onClickShipping()">
-        {{ order.section }}
-      </h3>
-    </li>
-    <ul class="details-ul" *ngFor="let detail of order.details">
-      <li>xxx</li>
-    </ul>
-  </ul> -->
   <ul class="order-details-ul" *ngFor="let order of orders">
     <li
-      (click)="onClickToggleDetail(order.section)"
-      (click)="toggleDisplay(order.section)"
+      class="{{ order.section }}"
+      [class.displayed]="isDisplayed"
+      (click)="toggleDisplay()"
     >
+      <!-- (click)="onClickToggleDetail(order.section)" -->
       <h3 class="navbar bg-dark section-header">
         {{ order.section + " Details" }}
+        <span *ngIf="isDisplayed">{{ " ▲ " }}</span>
+        <span *ngIf="!isDisplayed">{{ " ▼ " }}</span>
       </h3>
     </li>
-    <ul id="{{ order.section }}">
+    <ul
+      id="{{ order.section }}"
+      [ngStyle]="{
+        display: isDisplayed ? 'block' : 'none'
+      }"
+    >
       <li *ngFor="let section of order.details">
         {{ section.title + ": " + section.data }}
       </li>

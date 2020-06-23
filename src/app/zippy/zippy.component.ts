@@ -7,6 +7,7 @@ import { OrdersService } from "../orders.service";
   styleUrls: ["./zippy.component.css"],
 })
 export class ZippyComponent {
+  isDisplayed: boolean = false;
   expandBilling: boolean = true;
   expandShipping: boolean = true;
   orders: any;
@@ -28,8 +29,7 @@ export class ZippyComponent {
   onClickToggleDetail = (section) => {
     this.expandShipping = !this.expandShipping;
   };
-  toggleDisplay = (display: any) => {
-    console.log(display);
-    display === "block" ? "none" : "block";
+  toggleDisplay = () => {
+    this.isDisplayed = !this.isDisplayed;
   };
 }
