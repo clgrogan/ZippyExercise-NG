@@ -24,4 +24,12 @@ export class ZippyComponent {
   onClickShipping = () => {
     this.expandShipping = !this.expandShipping;
   };
+
+  onClickToggleDetail = (section) => {
+    this.expandShipping = !this.expandShipping;
+  };
+  toggleDisplay = (display: any) => {
+    console.log(display);
+    display === "block" ? "none" : "block";
+  };
 }

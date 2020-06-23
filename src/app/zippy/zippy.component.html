@@ -10,14 +10,17 @@
     </ul>
   </ul> -->
   <ul class="order-details-ul" *ngFor="let order of orders">
-    <li>
-      <h3 class="navbar bg-dark section-header" (click)="onClickShipping()">
+    <li
+      (click)="onClickToggleDetail(order.section)"
+      (click)="toggleDisplay(order.section)"
+    >
+      <h3 class="navbar bg-dark section-header">
         {{ order.section + " Details" }}
       </h3>
     </li>
-    <ul>
-      <li *ngFor="let hollywood of order.details">
-        {{ hollywood.title + ": " + hollywood.data }}
+    <ul id="{{ order.section }}">
+      <li *ngFor="let section of order.details">
+        {{ section.title + ": " + section.data }}
       </li>
     </ul>
   </ul>
